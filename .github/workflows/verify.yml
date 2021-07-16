@@ -9,5 +9,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cowsay -f ghostbusters "  who ya gonna call??"
-
-© 2021 GitHub, Inc.
