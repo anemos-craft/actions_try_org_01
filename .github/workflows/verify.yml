@@ -2,10 +2,130 @@ name: verify
 on: [push]
 
 jobs:
-  cowsay:
+  cowsay01:
     runs-on: self-hosted
     container: npalm/cowsay
 
     steps:
       - uses: actions/checkout@v2
-      - run: cowsay -f ghostbusters "  who ya gonna call??"
+      - run: cowsay -f ghostbusters "  I'm 01!"
+
+  cowsay02:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 02!"
+      
+  cowsay03:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 03!"
+      
+  cowsay04:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 04!"
+
+  cowsay05:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 05!"
+
+  cowsay06:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 06!"
+
+  cowsay07:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 07!"
+
+  cowsay08:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 08!"
+
+  cowsay09:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 09!"10
+
+  cowsay10:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 10!"
+      
+  cowsay11:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 11!"
+      
+  cowsay12:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 12!"
+
+  cowsay13:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 13!"
+
+  cowsay14:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 14!"
+      
+  cowsay15:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 15!"
+
+  cowsay16:
+    runs-on: self-hosted
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: cowsay -f ghostbusters "  I'm 16!"
