@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 01!!"
-          sleep 30
+          sleep 60
   cowsay02:
     runs-on: self-hosted
     container: npalm/cowsay
@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 02!!"
-          sleep 30
+          sleep 60
       
   cowsay03:
     runs-on: self-hosted
@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 03!!"
-          sleep 30
+          sleep 60
       
   cowsay04:
     runs-on: self-hosted
@@ -39,7 +39,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 04!!"
-          sleep 30
+          sleep 60
 
   cowsay05:
     runs-on: self-hosted
@@ -49,7 +49,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 05!!"
-          sleep 30
+          sleep 60
 
   cowsay06:
     runs-on: self-hosted
@@ -59,7 +59,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 06!!"
-          sleep 30
+          sleep 60
 
   cowsay07:
     runs-on: self-hosted
@@ -69,7 +69,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 07!!"
-          sleep 30
+          sleep 60
 
   cowsay08:
     runs-on: self-hosted
@@ -79,7 +79,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 08!!"
-          sleep 30
+          sleep 60
 
   cowsay09:
     runs-on: self-hosted
@@ -89,7 +89,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 09!!"
-          sleep 30
+          sleep 60
 
   cowsay10:
     runs-on: self-hosted
@@ -99,7 +99,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 10!!"
-          sleep 30
+          sleep 60
       
   cowsay11:
     runs-on: self-hosted
@@ -109,7 +109,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 11!!"
-          sleep 30
+          sleep 60
       
   cowsay12:
     runs-on: self-hosted
@@ -119,7 +119,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 12!!"
-          sleep 30
+          sleep 60
 
   cowsay13:
     runs-on: self-hosted
@@ -129,7 +129,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 13!!"
-          sleep 30
+          sleep 60
 
   cowsay14:
     runs-on: self-hosted
@@ -139,7 +139,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 14!!"
-          sleep 30
+          sleep 60
       
   cowsay15:
     runs-on: self-hosted
@@ -149,7 +149,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 15!!"
-          sleep 30
+          sleep 60
 
   cowsay16:
     runs-on: self-hosted
@@ -159,4 +159,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           cowsay -f ghostbusters "  I'm 16!!"
-          sleep 30
+          sleep 60
