@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          cowsay -f ghostbusters "  I'm 01!!"
+          cowsay -f ghostbusters "  I'm 01!!!"
           sleep 60
   cowsay02:
     runs-on: self-hosted
