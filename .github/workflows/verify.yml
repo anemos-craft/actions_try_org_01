@@ -8,4 +8,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: cowsay -f ghostbusters "  yeah! It has moved!! "
+      - run: |
+          echo "TEST" > ~/test.txt
+          cowsay -f ghostbusters "  `echo ~/test` "
