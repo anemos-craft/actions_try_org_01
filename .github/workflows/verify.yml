@@ -15,6 +15,7 @@ jobs:
   cowsay2:
     runs-on: ubuntu-latest
     container: npalm/cowsay
+    needs: cowsay
 
     steps:
       - uses: actions/checkout@v2
