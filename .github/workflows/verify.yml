@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           echo "TEST" > ~/test.txt
-          cowsay -f ghostbusters "  `echo ~/test` "
+          cowsay -f ghostbusters "  `cat ~/test` "
