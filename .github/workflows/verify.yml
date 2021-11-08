@@ -11,3 +11,12 @@ jobs:
       - run: |
           echo "TEST" > ~/test.txt
           cowsay -f ghostbusters "  `cat ~/test.txt` "
+
+  cowsay2:
+    runs-on: ubuntu-latest
+    container: npalm/cowsay
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          cowsay -f ghostbusters "  `cat ~/test.txt` "
